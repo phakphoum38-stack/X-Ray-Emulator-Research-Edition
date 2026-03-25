@@ -2,6 +2,7 @@ from system_controller import XRaySystem
 
 system = XRaySystem()
 
-img = system.start_scan()
+image = system.start_scan()
 
-print("Image size:",img.shape)
+print("Image generated")
+print(len(image), "x", len(image[0]))
