@@ -1,4 +1,4 @@
-from core.system_controller import XRaySystem
+from system_controller import XRaySystem
 
 system = XRaySystem()
 
